@@ -1,4 +1,3 @@
-
 public class socio implements Serializable
 {
 	private String nombre;
