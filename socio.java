@@ -21,7 +21,7 @@ public class socio implements Serializable
   //Metodo para imprimir en pantalla
 	public String toString()
 	{
-		return ("Nombre: "+ nombre + " " + apellido1 + " " + apellido2 +" DNI: " + dni + "\nFecha  de nacimiento: " + nacimiento.get(Calendar.DAY_OF_MONTH)+"/"+(1+nacimiento.get(Calendar.MONTH))+"/"+nacimiento.get(Calendar.YEAR));
+		return ("Nombre: "+ nombre + " " + apellido1 + " " + apellido2 +" DNI: " + dni + "\nFecha  de nacimiento: " + nacimiento.get(Calendar.DAY_OF_MONTH)+"/"+(nacimiento.get(Calendar.MONTH))+"/"+nacimiento.get(Calendar.YEAR));
 	}//cieere del metodo de imprimir
   //Metodo para escribir
   public void escritura(){
